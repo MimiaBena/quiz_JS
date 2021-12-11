@@ -6,32 +6,32 @@ const submitQuiz = document.querySelector(".submit");
 
 const questions = [
   {
-    question: "Who invented JavaScript?",
+    question: "Wh?",
     answers: {
-      a: "Douglas Crockford",
-      b: "Sheryl Sandberg",
-      c: "Brendan Eich"
+      a: "Do",
+      b: "S",
+      c: "B"
     },
     correctAnswer: "c"
   },
   {
-    question: "Which one of these is a JavaScript package manager?",
+    question: "Wr?",
     answers: {
-      a: "Node.js",
-      b: "TypeScript",
-      c: "npm"
+      a: "No",
+      b: "Tyt",
+      c: "nmm"
     },
-    correctAnswer: "c"
+    correctAnswer: "b"
   },
   {
-    question: "Which tool can you use to ensure code quality?",
+    question: "Whty?",
     answers: {
-      a: "Angular",
-      b: "jQuery",
-      c: "RequireJS",
-      d: "ESLint"
+      a: "Aar",
+      b: "jry",
+      c: "RS",
+      d: "ESt"
     },
-    correctAnswer: "d"
+    correctAnswer: "a"
   }
 ];
 
