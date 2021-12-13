@@ -66,16 +66,16 @@ function quiz(questions, quizContainer){
          
 	}
 
-	// finally combine our output list into one string of html and put it on the page
+	
 	quizContainer.innerHTML = output.join('');
 }
 //function for reslts
 function showResults (questions, quizContainer, results){
 	
-	// gather answer containers from our quiz
+	
 	var answerContainers = quizContainer.querySelectorAll('.answers');
 	
-	// keep track of user's answers
+	
 	var userAnswer = '';
 	var numCorrect = 0;
 	
